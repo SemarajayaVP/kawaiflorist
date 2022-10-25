@@ -23,7 +23,9 @@
     <link href="/templatedb/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="/templatedb/css/style.min.css" rel="stylesheet">
+    <link href="/templatedb/css/style.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -39,17 +41,10 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="menu.html" class="nav-item nav-link">Menu</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="reservation.html" class="dropdown-item">Reservation</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="about.html" class="nav-item nav-link">Produk</a>
+                    <a href="service.html" class="nav-item nav-link">Tentang</a>
+                    <a href="menu.html" class="nav-item nav-link">Kontak</a>
+                    <a href="" style="border-radius : 15px; margin-left: 15px; !important;"class="btn btn-primary font-weight-bold">Order Sekarang</a>
                 </div>
             </div>
         </nav>
