@@ -14,7 +14,10 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;900&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
@@ -33,7 +36,7 @@
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">KOPPEE</h1>
+                <img src="/templatedb/img/LOGOO.png" height="90" alt="Image">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +47,7 @@
                     <a href="about.html" class="nav-item nav-link">Produk</a>
                     <a href="service.html" class="nav-item nav-link">Tentang</a>
                     <a href="menu.html" class="nav-item nav-link">Kontak</a>
-                    <a href="" style="border-radius : 15px; margin-left: 15px; !important;"class="btn btn-primary font-weight-bold">Order Sekarang</a>
+                    <a href="" style="border-radius : 15px; margin-left: 15px; !important; color: #FFFBF2;"class="btn btn-primary font-weight-bold">Order Sekarang</a>
                 </div>
             </div>
         </nav>
@@ -87,28 +90,57 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 1950</h1>
+                <h4 class="text-judul">Produk buket bunga di Kawai Florist</h4>
+                <p class="text-primer">Produk buket bunga dapat dipesan H-7 sebelum acara, untuk melakukan pesanan dapat langsung ke </p>
+                <p class="text-primer">tombol pesan sekarang di pojok kanan atas atau hubungi kami melalui kontak kami.</p></p>
             </div>
             <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="/templatedb/img/about.png" style="object-fit: cover;">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div style="text-align:center;" class="mt-4">
+                            <img width="97" src="/templatedb/img/birthday.png">
+                        </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Custome Bouquet</h5>
+                            <p class="card-text">Pelanggan dapat memesan buket bunga custom atau sesuai dengan keinginan dari pelanggan</p>
+                          </div>
                     </div>
                 </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                
+                <div class="col mt-4">
+                    <div class="card">
+                        <div style="text-align:center;" class="mt-4" >
+                            <img width="110" src="/templatedb/img/custom.png">
+                        </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Birthday Party</h5>
+                            <p class="card-text">Pelanggan dapat memesan buket bunga untuk dekorasi acara ulang tahun ataupun sebagai hadiah</p>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col mt-4">
+                    <div class="card">
+                        <div style="text-align:center;" class="mt-4">
+                            <img width="205" src="/templatedb/img/decor-2048x1367.png">
+                        </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Decoration Event</h5>
+                            <p class="card-text">Pelanggan dapat memesan buket bunga untuk dijadikan sebagai dekorasi pada sebuah acara</p>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col mt-4">
+                    <div class="card">
+                        <div style="text-align:center;" class="mt-4">
+                            <img width="208" src="/templatedb/img/wedding.png">
+                        </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Wedding Design</h5>
+                            <p class="card-text">Pelanggan dapat memesan buket bunga untuk keperluan atau kebutuhan pernikahan</p>
+                          </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,280 +152,155 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
-                <h1 class="display-4">Fresh & Organic Beans</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5">
                     <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="/templatedb/img/service-1.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-truck service-icon"></i>Fastest Door Delivery</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="/templatedb/img/service-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        <div class="col-title">
+                            <h4 class="title-text">Tentang</h4>
+                            <img class="img-fluid mb-3 mb-sm-0" src="/templatedb/img/KawaiFlorist.png" alt="">
+                            <p class="tentang-title">Kawai Florist adalah sebuah usaha Florist atau toko bunga yang menjual berbagi jenis rangkaian bunga dan telah berdiri sejak tahun 2018 dan telah berdiri sejak tahun 2018 yang berlokasi di Jalan Dewi Sri, Gg. Anggrek No.37b Batubulan, Sukawati, Gianyar.</p>
+                            <a href="" class="btn-tentang">Ketahui Lebih Lanjut</a>
+                            <img class="img-tentang img-fluid mb-3 mb-sm-0" src="/templatedb/img/tanganbunga.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="/templatedb/img/service-3.jpg" alt="">
+                    <div class="row-tentang">
+                        <div>
+                            <img height="70" width="312" class="img-fluid mb-3 mb-sm-0" src="/templatedb/img/bungabener2.png" alt="">
                         </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        <div class="col-title">
+                            <h4 class="title-text">Siap Dipesan</h4>
+                            <img height="65" src="/templatedb/img/siap.png" alt="">
+                            <p class="tentang-title">Mengirim bunga dapat menyampaikan pesan hangan anda kepada teman, anggota keluarga, atau orang yang anda cintai.</p>
+                            <a href="" class="btn-tentang">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-title">
+                            <img height="130" class="mb-3 mb-sm-0" src="/templatedb/img/kenangan.png" alt="">
+                            <p class="tentang-title">Kami memiliki bunga dengan kualitas yang bagus dan harga terjangkau untuk semua kalangan, kami juga selalu menjaga keindahan, kesegaran, dan kualitas dari produk kami.</p>
+                            <a href="" class="btn-tentang">Hubungi Kami</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="/templatedb/img/service-4.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                    <div class="row-tentang">
+                        <div>
+                            <img height="60%" class=" mb-3 mb-sm-0" src="/templatedb/img/produk.png" alt="">
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
     <!-- Service End -->
 
-
-    <!-- Offer Start -->
-    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
-        <div class="container py-5">
-            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
-            <h1 class="text-white mb-3">Sunday Special Offer</h1>
-            <h4 class="text-white font-weight-normal mb-4 pb-3">Only for Sunday from 1st Jan to 30th Jan 2045</h4>
-            <form class="form-inline justify-content-center mb-4">
-                <div class="input-group">
-                    <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
-                    </div>
-                </div>
-            </form>
+ <!-- Testimonial Start -->
+ <div class="container-fluid py-5">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-judul">New Product</h4>
         </div>
-    </div>
-    <!-- Offer End -->
-
-
-    <!-- Menu Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
+        <div class="owl-carousel testimonial-carousel">
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="/templatedb/img/produk1.jpg" alt="">
+                    
+                </div>
+                
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Hot Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/templatedb/img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/templatedb/img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/templatedb/img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="/templatedb/img/produk2.jpg" alt="">
+                    
                 </div>
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Cold Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/templatedb/img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/templatedb/img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="/templatedb/img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
+                
+            </div>
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="/templatedb/img/produk3.jpg" alt="">
+                    
                 </div>
+                
+            </div>
+            <div class="testimonial-item">
+                <div class="d-flex align-items-center mb-3">
+                    <img class="img-fluid" src="/templatedb/img/produk4.jpg" alt="">
+                    
+                </div>
+                
             </div>
         </div>
     </div>
-    <!-- Menu End -->
+</div>
+<!-- Testimonial End -->
 
+<!-- Gallery Start-->
+<div class="container-gal">
 
-    <!-- Reservation Start -->
-    <div class="container-fluid my-5">
-        <div class="container">
-            <div class="reservation position-relative overlay-top overlay-bottom">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 my-5 my-lg-0">
-                        <div class="p-5">
-                            <div class="mb-4">
-                                <h1 class="display-3 text-primary">30% OFF</h1>
-                                <h1 class="text-white">For Online Reservation</h1>
-                            </div>
-                            <p class="text-white">Lorem justo clita erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea</p>
-                            <ul class="list-inline text-white m-0">
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
-                            <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
-                            <form class="mb-5">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name"
-                                        required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email"
-                                        required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
-                                        <option selected>Person</option>
-                                        <option value="1">Person 1</option>
-                                        <option value="2">Person 2</option>
-                                        <option value="3">Person 3</option>
-                                        <option value="3">Person 4</option>
-                                    </select>
-                                </div>
-                                
-                                <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div class="gallery-container">
+        <div class="gallery-item">
+        <div class="image">
+            <img src="/templatedb/img/galeri1.jpeg" alt="nature">
+        </div>
+        <div class="text"> nature</div>
+    </div>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+        <div class="image">
+            <img src="/templatedb/img/galeri2.jpeg" alt="nature">
+        </div>
+        <div class="text"> nature</div>
+    </div>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <div class="image">
+                <img src="/templatedb/img/galeri3.jpeg" alt="nature">
             </div>
+            <div class="text"> nature</div>
         </div>
     </div>
-    <!-- Reservation End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
-                <h1 class="display-4">Our Clients Say</h1>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <div class="image">
+                <img src="/templatedb/img/galeri6.jpeg" alt="nature">
             </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="/templatedb/img/testimonial-1.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="/templatedb/img/testimonial-2.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="/templatedb/img/testimonial-3.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="/templatedb/img/testimonial-4.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-            </div>
+            <div class="text"> nature</div>
         </div>
     </div>
-    <!-- Testimonial End -->
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <div class="image">
+                <img src="/templatedb/img/galeri7.jpeg" alt="nature">
+            </div>
+            <div class="text"> nature</div>
+        </div>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <div class="image">
+                <img src="/templatedb/img/galeri8.jpeg" alt="nature">
+            </div>
+            <div class="text"> nature</div>
+        </div>
+    </div>
+
+</div>
 
 
     <!-- Footer Start -->
