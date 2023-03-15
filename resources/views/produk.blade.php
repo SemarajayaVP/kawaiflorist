@@ -189,43 +189,43 @@
         <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item">
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="/templatedb/img/surya.jpg" alt="">
+                    <img class="img-fluid" src="/templatedb/img/catur.jpg" alt="">
                 </div>
                 <div class="testi-card">
-                    <h4>Uyaaa Kuli</h4>
-                    <i>Kuli Kalimantan</i>
+                    <h4>catur</h4>
+                    <i>Mahasiswa</i>
                 </div>
-                <p class="m-testi">Cinta itu kayak hukum mati. Kalau gak ditembak ya digantung. #minmal_Handstand</p>
+                <p class="m-testi">Bunganya Bagus</p>
             </div>
             <div class="testimonial-item">
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="/templatedb/img/wira.jpg" alt="">
+                    <img class="img-fluid" src="/templatedb/img/gungwah.jpeg" alt="">
                 </div>
                 <div class="testi-card">
-                    <h4>Jawir</h4>
-                    <i>Bapak Opet</i>
+                    <h4>Gungwah</h4>
+                    <i>Mahasiswa</i>
                 </div>
-                <p class="m-testi">Si papasi.. Si papasi Baka --///--</p>
+                <p class="m-testi">Harganya murah</p>
             </div>
             <div class="testimonial-item">
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="/templatedb/img/catur2.jpg" alt="">
+                    <img class="img-fluid" src="/templatedb/img/nanda.jpeg" alt="">
                 </div>
                 <div class="testi-card">
-                    <h4>Caturdianta</h4>
-                    <i>Crew Official</i>
+                    <h4>Nanda</h4>
+                    <i>Mahasiswa</i>
                 </div>
-                <p class="m-testi">Bunganya sangat indah dan harganya ramah dikantong mahasiswa</p>
+                <p class="m-testi">Senang belanja disini</p>
             </div>
             <div class="testimonial-item">
                 <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="/templatedb/img/jerry.jpg" alt="">
+                    <img class="img-fluid" src="/templatedb/img/anan.jpeg" alt="">
                 </div>
                 <div class="testi-card">
-                    <h4>Jeuwii</h4>
-                    <i>CEO Dilan Group</i>
+                    <h4>Pannandika</h4>
+                    <i>Mahasiswa</i>
                 </div>
-                <p class="m-testi">Kamu nanyeeeeeee?? Kamu bertanya-tanya toko bunga yang bagus dimana??  NANTI KUKASIH RAWRRRRRRRRR yang banyak Ya</p>
+                <p class="m-testi">Bunganya bagus</p>
             </div>
         </div>
     </div>

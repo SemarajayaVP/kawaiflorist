@@ -105,7 +105,7 @@
     <div class="gallery-container">
         <div class="gallery-item2">
         <div class="image">
-            <img src="/templatedb/img/nyoman.jpg" alt="nature">
+            <img src="/templatedb/img/foto nyoman.jpg" alt="nature">
         </div>
         <div class="text2">Nyoman Justin</div>
     </div>
